@@ -67,3 +67,27 @@ def factorial(n):
     for i in range(2, n + 1):  # Iterate from 2 to n
         result *= i  # Multiply result by i
     return result  # Return the final factorial value
+
+
+
+
+
+""" Summary of Functions:
+
+    min(x, y): Returns the smaller of two values.
+    
+    max(x, y): Returns the larger of two values.
+    
+    abs(x): Returns the absolute value of a number.
+    
+    abs_max(x, y): Returns the maximum of the absolute values of two numbers.
+    
+    floor(x): Returns the largest integer less than or equal to a given number.
+    
+    ceil(x): Returns the smallest integer greater than or equal to a given number.
+    
+    square_root(x): Computes the square root of a number, raising an error for negative inputs.
+    
+    power(base, exponent): Raises a base to a given exponent.
+    
+    factorial(n): Computes the factorial of a non-negative integer. """
