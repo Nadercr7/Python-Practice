@@ -53,9 +53,9 @@ def square_root(x):
     return x ** 0.5  # Calculate and return the square root
 
 
-def power(base, exponent):
+def power(x, y):
     # Returns the result of base raised to the power of exponent
-    return base ** exponent  # Calculate and return base raised to the exponent
+    return x ** y  # Calculate and return base raised to the exponent
 
 
 def factorial(n):
