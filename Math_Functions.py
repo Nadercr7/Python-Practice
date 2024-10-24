@@ -61,7 +61,7 @@ def power(base, exponent):
 def factorial(n):
     # Returns the factorial of n (n!)
     if n < 0:
-        raise ValueError("Factorial is not defined for negative numbers.")  # Factorial is not defined for negative numbers
+        print("Factorial is not defined for negative numbers.")  # Factorial is not defined for negative numbers
     
     result = 1  # Initialize result to 1
     for i in range(2, n + 1):  # Iterate from 2 to n
